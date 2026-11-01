@@ -1,0 +1,30 @@
+{
+  "method": "TTA",
+  "num_tta_views": 8,
+  "num_images": 93,
+  "pixel_accuracy": 0.9815202355384827,
+  "miou_all": 0.5729498863220215,
+  "mdice_all": 0.7099873423576355,
+  "miou_foreground": 0.4906870424747467,
+  "mdice_foreground": 0.653570830821991,
+  "iou_per_class": {
+    "background": 0.9842640161514282,
+    "red": 0.5052603483200073,
+    "yellow": 0.48239925503730774,
+    "green": 0.6523491740226746,
+    "mixed_red": 0.38998404145240784,
+    "mixed_yellow": 0.42344236373901367
+  },
+  "dice_per_class": {
+    "background": 0.9920697212219238,
+    "red": 0.671326220035553,
+    "yellow": 0.6508358120918274,
+    "green": 0.7896020412445068,
+    "mixed_red": 0.5611345767974854,
+    "mixed_yellow": 0.5949553847312927
+  },
+  "mean_entropy_correct_pixels": 0.023727034031326533,
+  "mean_entropy_wrong_pixels": 0.2834565511302892,
+  "mean_disagreement_correct_pixels": 0.00736529427389449,
+  "mean_disagreement_wrong_pixels": 0.19699524779813907
+}

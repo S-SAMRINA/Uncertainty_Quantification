@@ -1,0 +1,51 @@
+{
+  "method": "Evidential Deep Learning",
+  "checkpoint_epoch": 99,
+  "segmentation": {
+    "pixel_accuracy": 0.9815347194671631,
+    "iou_per_class": [
+      0.9852231740951538,
+      0.5140185356140137,
+      0.39595821499824524,
+      0.6902802586555481,
+      0.36292052268981934,
+      0.4410077929496765
+    ],
+    "dice_per_class": [
+      0.9925565719604492,
+      0.6790122389793396,
+      0.5672923922538757,
+      0.8167642951011658,
+      0.5325630307197571,
+      0.6120824217796326
+    ],
+    "miou_all": 0.5649014711380005,
+    "mdice_all": 0.700045108795166,
+    "miou_foreground": 0.4808370769023895,
+    "mdice_foreground": 0.6415428519248962
+  },
+  "calibration": {
+    "ece_all": 0.3051359559209581,
+    "ece_foreground": 0.1787204006239835,
+    "brier_all": 0.14368709681495542,
+    "brier_foreground": 0.37462127577233056
+  },
+  "evidential_uncertainty": {
+    "auroc_all": 0.3773602047112071,
+    "aupr_all": 0.06490710682588595,
+    "auroc_foreground": 0.8848121200498038,
+    "aupr_foreground": 0.7352941043482701
+  },
+  "predictive_entropy": {
+    "auroc_all": 0.6741133546057141,
+    "aupr_all": 0.2450854834655729,
+    "auroc_foreground": 0.8276993447180888,
+    "aupr_foreground": 0.5489053371683406
+  },
+  "mean_uncertainty": {
+    "correct": 0.3784378170967102,
+    "wrong": 0.35439836978912354,
+    "entropy_correct": 0.6362321376800537,
+    "entropy_wrong": 0.6835412979125977
+  }
+}

@@ -1,0 +1,24 @@
+Eval summary
+========================================
+Num samples: 93
+Pixel accuracy: 0.9805
+mIoU (all): 0.5626
+mDice (all): 0.7011
+mIoU (foreground): 0.4784
+mDice (foreground): 0.6430
+
+Per-class IoU:
+       background: 0.9835
+              red: 0.4617
+           yellow: 0.4404
+            green: 0.6437
+        mixed_red: 0.4008
+     mixed_yellow: 0.4452
+
+Per-class Dice:
+       background: 0.9917
+              red: 0.6317
+           yellow: 0.6115
+            green: 0.7832
+        mixed_red: 0.5723
+     mixed_yellow: 0.6161

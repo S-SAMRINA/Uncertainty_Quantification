@@ -1,0 +1,34 @@
+{
+  "split": "eval",
+  "num_samples": 93,
+  "class_names": [
+    "background",
+    "red",
+    "yellow",
+    "green",
+    "mixed_red",
+    "mixed_yellow"
+  ],
+  "pixel_accuracy": 0.9805240631103516,
+  "miou_all": 0.5625503063201904,
+  "mdice_all": 0.7010831236839294,
+  "miou_foreground": 0.47835731506347656,
+  "mdice_foreground": 0.6429619193077087,
+  "iou_per_class": {
+    "background": 0.983515202999115,
+    "red": 0.46168938279151917,
+    "yellow": 0.44044971466064453,
+    "green": 0.6436645984649658,
+    "mixed_red": 0.4008232653141022,
+    "mixed_yellow": 0.44515955448150635
+  },
+  "dice_per_class": {
+    "background": 0.9916890859603882,
+    "red": 0.631720244884491,
+    "yellow": 0.6115447282791138,
+    "green": 0.7832067608833313,
+    "mixed_red": 0.5722681283950806,
+    "mixed_yellow": 0.6160697340965271
+  },
+  "checkpoint": "output/checkpoints/best_model.pth"
+}

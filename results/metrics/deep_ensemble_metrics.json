@@ -1,0 +1,65 @@
+{
+  "method": "Deep Ensemble",
+  "num_members": 5,
+  "num_images": 93,
+  "member_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "segmentation": {
+    "pixel_accuracy": 0.9840551614761353,
+    "iou_per_class": [
+      0.9869635701179504,
+      0.6280142068862915,
+      0.4705072343349457,
+      0.7009032964706421,
+      0.4302241802215576,
+      0.4712311029434204
+    ],
+    "dice_per_class": [
+      0.9934390783309937,
+      0.7715095281600952,
+      0.6399250626564026,
+      0.8241541981697083,
+      0.6016178131103516,
+      0.6405942440032959
+    ],
+    "miou_all": 0.6146405935287476,
+    "mdice_all": 0.7452067136764526,
+    "miou_foreground": 0.5401760339736938,
+    "mdice_foreground": 0.6955601572990417
+  },
+  "calibration": {
+    "ece_all": 0.006019438623673191,
+    "ece_foreground": 0.16244298452981618,
+    "brier_all": 0.024951683920657924,
+    "brier_foreground": 0.41103778607262076
+  },
+  "uncertainty_means": {
+    "entropy_correct": 0.016919271030187227,
+    "entropy_wrong": 0.25804522168483757,
+    "mutual_information_correct": 0.002977658264285706,
+    "mutual_information_wrong": 0.09322950579666373
+  },
+  "predictive_entropy_error_detection": {
+    "auroc_all": 0.9428772883096888,
+    "aupr_all": 0.3706818594246838,
+    "auroc_foreground": 0.7328419757467767,
+    "aupr_foreground": 0.4516032169163876
+  },
+  "mutual_information_error_detection": {
+    "auroc_all": 0.9572590989607623,
+    "aupr_all": 0.3097679042597624,
+    "auroc_foreground": 0.6966267062232662,
+    "aupr_foreground": 0.40057335376125053
+  },
+  "disagreement_error_detection": {
+    "auroc_all": 0.7400725769974502,
+    "aupr_all": 0.3244993852256939,
+    "auroc_foreground": 0.6340828910806753,
+    "aupr_foreground": 0.41617099294220716
+  }
+}

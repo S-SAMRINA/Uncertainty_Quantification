@@ -1,0 +1,15 @@
+Temperature Scaling summary
+========================================
+Fitted T: 1.3909
+Num eval images: 93
+
+Metric                            Before       After
+ECE (all pixels)                  0.0102      0.0120
+ECE (foreground)                  0.2269      0.1929
+Brier (all pixels)                0.0326      0.0316
+Brier (foreground)                0.5144      0.4869
+
+Segmentation (unaffected by T):
+  Pixel accuracy:     0.9805
+  mIoU (foreground):  0.4784
+  mDice (foreground): 0.6430

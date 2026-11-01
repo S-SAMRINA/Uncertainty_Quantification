@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Data, generated masks and run outputs (too large / not redistributable)
+data/
+masks/
+output/
+*.tiff
+*.tif
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Cluster logs
+*.out
+*.err
+
+# OS / editor
+.DS_Store
+Thumbs.db
+__MACOSX/
+.vscode/
+.idea/

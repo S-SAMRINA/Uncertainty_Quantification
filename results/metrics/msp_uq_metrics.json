@@ -1,0 +1,40 @@
+{
+  "method": "MSP",
+  "num_images": 93,
+  "segmentation": {
+    "pixel_accuracy": 0.9805240631103516,
+    "miou_all": 0.5625503063201904,
+    "mdice_all": 0.7010831236839294,
+    "miou_foreground": 0.47835731506347656,
+    "mdice_foreground": 0.6429619193077087,
+    "iou_per_class": {
+      "background": 0.983515202999115,
+      "red": 0.46168938279151917,
+      "yellow": 0.44044971466064453,
+      "green": 0.6436645984649658,
+      "mixed_red": 0.4008232653141022,
+      "mixed_yellow": 0.44515955448150635
+    },
+    "dice_per_class": {
+      "background": 0.9916890859603882,
+      "red": 0.631720244884491,
+      "yellow": 0.6115447282791138,
+      "green": 0.7832067608833313,
+      "mixed_red": 0.5722681283950806,
+      "mixed_yellow": 0.6160697340965271
+    }
+  },
+  "calibration": {
+    "ece_all": 0.010217576435866004,
+    "ece_foreground": 0.22685057246319074,
+    "brier_all": 0.032550904734600934,
+    "brier_foreground": 0.5144389670702719
+  },
+  "uncertainty_quality": {
+    "auroc_all_pixels": 0.8961352667541869,
+    "auroc_foreground": 0.6470696898274566,
+    "aupr_all_pixels": 0.3149991430634361,
+    "aupr_foreground": 0.43050767237608
+  },
+  "note": "MSP (1 - max softmax probability) is the naive single-pass uncertainty baseline -- no extra training or forward passes beyond a normal prediction. Segmentation metrics are identical to evaluate.py since MSP does not alter predictions, it only scores confidence in them."
+}

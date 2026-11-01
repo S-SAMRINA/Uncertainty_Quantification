@@ -1,0 +1,20 @@
+MSP (Maximum Softmax Probability) UQ summary
+========================================
+Num eval images: 93
+
+Segmentation:
+  Pixel accuracy:     0.9805
+  mIoU (foreground):  0.4784
+  mDice (foreground): 0.6430
+
+Calibration:
+  ECE (all pixels):    0.0102
+  ECE (foreground):    0.2269
+  Brier (all pixels):  0.0326
+  Brier (foreground):  0.5144
+
+Uncertainty quality (error detection):
+  AUROC (all pixels):  0.8961
+  AUROC (foreground):  0.6471
+  AUPR  (all pixels):  0.3150
+  AUPR  (foreground):  0.4305

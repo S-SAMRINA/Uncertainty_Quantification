@@ -1,0 +1,44 @@
+{
+  "method": "TemperatureScaling",
+  "num_images": 93,
+  "fit_split": "val",
+  "n_val_images": 63,
+  "n_val_pixels_used": 1260000,
+  "temperature": 1.390939474105835,
+  "nll_val_before": 0.11785580217838287,
+  "nll_val_after": 0.10637296736240387,
+  "segmentation": {
+    "pixel_accuracy": 0.9805240631103516,
+    "miou_all": 0.5625503063201904,
+    "mdice_all": 0.7010831236839294,
+    "miou_foreground": 0.47835731506347656,
+    "mdice_foreground": 0.6429619193077087,
+    "iou_per_class": {
+      "background": 0.983515202999115,
+      "red": 0.46168938279151917,
+      "yellow": 0.44044971466064453,
+      "green": 0.6436645984649658,
+      "mixed_red": 0.4008232653141022,
+      "mixed_yellow": 0.44515955448150635
+    },
+    "dice_per_class": {
+      "background": 0.9916890859603882,
+      "red": 0.631720244884491,
+      "yellow": 0.6115447282791138,
+      "green": 0.7832067608833313,
+      "mixed_red": 0.5722681283950806,
+      "mixed_yellow": 0.6160697340965271
+    }
+  },
+  "calibration": {
+    "ece_all_before": 0.010217576478225965,
+    "ece_all_after": 0.011961015628174978,
+    "ece_foreground_before": 0.22685057242481893,
+    "ece_foreground_after": 0.19293934484932185,
+    "brier_all_before": 0.0325509046244445,
+    "brier_all_after": 0.031584878216788015,
+    "brier_foreground_before": 0.5144389678714096,
+    "brier_foreground_after": 0.4868716063198223
+  },
+  "note": "Temperature scaling only rescales confidence; argmax predictions (and therefore mIoU / pixel accuracy / Dice under 'segmentation') are IDENTICAL to the plain evaluate.py run -- only the 'calibration' numbers change between _before and _after."
+}
